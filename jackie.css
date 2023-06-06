@@ -1,0 +1,568 @@
+/* DOCUMENTO CSS */
+/* RESET CSS */
+/*NÃO ALTERAR */
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+
+	
+}
+
+body {
+	font-family: tohama;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 120px;
+	background-color: #BE1918;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+ }
+ header figure {
+ 	width: 100px;
+	height: 100px;
+	margin: 20px 30px 0 30px;
+	padding: 0;
+ }
+header figure img{
+	width: 100%;
+}
+header h1 {
+	font-family: 'Kyiv*Type Titling';
+	font-style: normal;
+	font-weight: 350;
+	font-size: 40px;
+	line-height: 48px;
+	color: #FFFFFF;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	width: 500px;
+}
+
+#menu {
+  	width: 500px;
+  	height: 110px;
+  	margin-right: 200px;
+  	display: flex;
+  	justify-content: center;
+  	font-family: ;
+  }
+
+#menu div {
+  	width: 100px;
+  	height: 110px;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  }
+ 
+ #menu div a {
+  	text-decoration: none;
+ }
+ #menu .imgmenu{
+ 	width: 30px;
+ }
+ #menu div a p {
+ 	margin: 0;
+ 	padding: 0;
+ 	color: #fff;
+ 	text-align: center;
+ 	font-family: 'Ponnala';
+	font-style: normal;
+	font-weight: 400;
+    font-size: 1 0px;
+ }
+ 
+.login {
+	margin-left: 400px;
+}
+main{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+/* ----- LADO ESQUERDO --- */
+aside {
+	width: 20%;
+	height: 600px;
+	background-color: #013451;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+   padding: 0;
+}
+aside #logo2 {
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+aside #logo2 img {
+	width: 100%;
+}
+#menu2{
+	width: 200px;
+	height: 250px;
+	justify-content: center;
+  	display: flex;
+  	flex-direction: column;
+  	align-content: center;
+}
+
+#menu2 div {
+  	width: 200px;
+  	height: 50px;
+  	text-align: center;
+  	padding-top: 13px;
+  	margin-bottom: 5px;
+  	background-color: #7CA4AE;
+  	border: 2px solid #1A1319;
+	border-radius: 10px;
+  }
+#menu2 div:hover {
+	background-color: #c1c1c1;
+}
+#menu2 a{
+	text-decoration: none;
+	color: #1A1319;
+	font-family: 'Noto Sans Bengali';
+	font-style: normal;
+	
+}
+
+/* ------ LADO DIREITO ----- */
+#conteudo {
+	width: 80%;
+	background-color: yellow;
+	height: 600px;
+	overflow-y: scroll;
+}
+
+#conteudo #parte1 {
+	height: 1000px;
+	background-color: #fff;
+}
+#conteudo #parte1 #boxparte1{
+	background-color: #D9D9D9;
+	width: 1200px;
+	height: 600px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#conteudo #parte1 #boxparte1 figure img {
+	width: 1200px;
+	display: flex;
+	background-color: #fff;
+	justify-content: flex-end;
+}
+
+#conteudo #parte1 #caixas #membros {
+	background-color: pink;
+	width: 1000px;
+}
+.banana {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+.membros {
+	width: 500px;
+	height: 300px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.tituloM {
+	width: 450px;
+	height: 80px;
+	margin: 20px;
+	border-bottom: 3px solid black;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.tituloM h1 {
+	font-family: 'Noto Sans Bengali';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.peru {
+	width: 490px;
+	height: 150px;
+	display: flex;
+}
+
+.estrela {
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+}
+
+.estrela img {
+	width: 100px;
+	height: 100px;
+	animation: roll 5s infinite;
+	transform: rotate(360deg);
+}
+
+@keyframes roll {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.jackiefan {
+	width: 400px;
+	height: 150px;
+	margin: 20px;
+}
+
+.jackiefan p {
+	font-family: ´Jura´;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+	display: flex;
+	text-align: center;
+	margin: 20px;
+}
+.novidades {
+	width: 500px;
+	height: 300px;
+	background-color: #fff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tituloN {
+	width: 450px;
+	height: 80px;
+	margin: 20px;
+	border-bottom: 3px solid black;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.tituloN h1 {
+	font-family: 'Noto Sans Bengali';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.pera {
+	width: 490px;
+	height: 150px;
+	display: flex;
+}
+
+.insta {
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+}
+
+.insta img {
+	width: 100px;
+	height: 100px;
+}
+
+.nov {
+	width: 400px;
+	height: 150px;
+	margin: 20px;
+}
+
+.nov p {
+	font-family: 'Jura';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+	display: flex;
+	text-align: center;
+	margin: 20px;
+}
+#conteudo #biografia {
+	height: 1200px;
+	background-color: #fff;
+	border-top: 1px solid lightgray;
+}
+
+.todos {
+	width: 1200px;
+	height: 1200px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.texto {
+	width: 700px;
+	height: 1100px;
+	margin-top: 20px;
+}
+
+.tituloB {
+	width: 700px;
+	height: 60px;
+	border-left: 5px solid yellow;
+}
+.tituloB h1 {
+	font-family: 'Noto Sans Bengali';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 50px;
+	line-height: 53px;
+	display: flex;
+	align-items: center;
+	margin: 5px;
+}
+.bio {
+	width: 700px;
+	height: 1000px;
+	background-color: #fff;
+	margin-top: 40px;
+}
+
+.bio p {
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 100px;
+	font-size: 20px;
+	line-height: 40px;
+	display: flex;
+	align-items: center;
+}
+.imagem {
+	background: #013451;
+	width: 300px;
+	height: 430px;
+	margin-top: 20px;
+	mix-blend-mode: normal;
+	box-shadow: 0px 4px 4px;
+	border-radius: 10px;
+	transition: height 0.1s;
+}
+
+ .imagem:hover{
+ 	box-shadow: 6px 6px 10px #a4a4a4;
+ 	height: 1090px;
+ }
+
+.imagem figure img {
+	width: 250px;
+	margin: 20px;
+	align-items: center;
+	justify-content: center;
+} 
+
+.imagem h2 {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-family: 'OFL Sorts Mill Goudy TT';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 30px;
+	color: #FFF;
+	margin: 20px;
+	}
+
+.imagem p {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-family: 'OFL Sorts Mill Goudy TT';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFF;
+	margin: 20px;
+}
+
+#conteudo #filmes {
+	height: 1700px;
+	background-color: #ffffff;
+	border-top: 1px solid lightgray;
+	display: flex;
+	justify-content: center;
+}
+
+.uva {
+	width: 1100px;
+	height: 1400px;
+	margin-top: 30px;
+}
+
+.caixa {
+	width: 1100px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	border-left: 5px solid yellow;
+}
+
+.caixa h1 {
+	font-family: 'Noto Sans Bengali';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 50px;
+	line-height: 53px;
+	display: flex;
+	align-items: center;
+	margin: 7px;
+}
+
+.LF {
+	width: 1100px;
+	height: 1300px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.FI{
+	width: 250px;
+	height: 330px;
+	background-color: lightcoral;
+	margin: 20px;
+	background: #013451;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 6px 6px 10px #a4a4a4;
+}
+
+.milho {
+	width: 200px;
+	height: 260px;
+	justify-content: center;
+	align-items: center;
+}
+
+.FI figure img {
+	width: 200px;
+	height: 260px;
+	border: 8px double gray;
+}
+
+#conteudo #premiacoes {
+	height: 1500px;
+	background-color: #ffffff;
+	border-top: 1px solid lightgray;
+	display: flex;
+	justify-content: center;
+}
+
+.abacaxi {
+	width: 1100px;
+	height: 1400px;
+	margin-top: 30px;
+}
+
+.caixa2 {
+	width: 1100px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	border-left: 5px solid yellow;
+}
+
+.caixa2 h1 {
+	font-family: 'Noto Sans Bengali';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 50px;
+	line-height: 53px;
+	display: flex;
+	align-items: center;
+	margin: 7px;
+}
+
+.pave {
+
+	width: 1100px;
+	height: 1300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.textoP {
+	width: 1000px;
+	height: 1000px;
+	display: flex;
+	justify-content: center;
+	border: 5px double beige;
+}
+
+.textoP p {
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 40px;
+	display: flex;
+	margin: 20px;
+
+	color: #1A1319;
+}
+
+#imagem {
+	display:flex;
+	width: 70%;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#imagem img{
+	width:100%;
+
+}
+
+#menu2 img{
+	display: flex;
+	width: 80%;
+	align-items: center;
+	justify-content: center;
+}
+
+/* ---- RODAPÉ ----- */
+
+footer {
+	background-color: #BE1918;
+	height: 90px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+footer figure {
+	width: 70px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+footer figure img {
+	width: 100%;
+}
+
+footer p {
+	color: #fff;
+}
